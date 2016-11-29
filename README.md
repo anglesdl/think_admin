@@ -1,17 +1,22 @@
-# Think Admin 1.0
+# Think Admin 后台管理系统
 ===============
 
-Think Admin 1.0 基于ThinkPHP5开发，初始的1.0版本没有开发成CMS，只是个后台管理系统，附带常用的功能，方便扩展使用。
+```
+* 后台程序基于ThinkPHP 5 开发，界面基于LayUI开发，框架核心会和官方保持同步更新
+* 运行环境要求PHP5.4以上；
+* 为了兼容虚拟主机的使用，index.php入口文件移至根目录；
+* 数据库创建完成后，默认管理员账号：admin，默认密码：admin；
+```
+
+Think Admin v1.0.5更新：
+```
+* 同步更新layui为官方1.0.5版本
+* 修复后台导航编辑界面排序默认值显示不正确BUG
+```
 
 ```
-后台演示：http://www.xiyilou.com/index.php/admin （若配置了URL重写可省略index.php）
+后台演示：http://www.xiyilou.com/index.php/admin
 演示账号：demo demo
-```
-
-```
-Think Admin的运行环境要求PHP5.4以上；
-为了兼容虚拟主机的使用，index.php入口文件移至根目录；
-数据库创建完成后，默认管理员账号：admin，默认密码：admin；
 ```
 
 ## 注意事项：
@@ -19,8 +24,6 @@ Think Admin的运行环境要求PHP5.4以上；
 *   数据库表前缀默认为think_开头，`application`目录下的`config.php`配置文件中，`salt`项的值为全站需要加密的地方公用的加密盐值，
 *   开发新站点前请注意修改此项，使用`md5('新密码' . config('salt'))`重新生成管理员密码，替换`think_admin_user`中的默认密码
 ```
-
-详细配置及开发文档参考 [ThinkPHP5完全开发手册](http://www.kancloud.cn/manual/thinkphp5)
 
 ## 目录结构
 
