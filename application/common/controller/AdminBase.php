@@ -1,7 +1,7 @@
 <?php
 namespace app\common\controller;
 
-use think\auth\Auth;
+use org\Auth;
 use think\Loader;
 use think\Cache;
 use think\Controller;
