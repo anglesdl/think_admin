@@ -15,7 +15,6 @@ class ComposerStaticInitad5b003737c3e55cebd9eaeff51e9855
         array (
             'think\\composer\\' => 15,
             'think\\captcha\\' => 14,
-            'think\\auth\\' => 11,
             'think\\' => 6,
         ),
     );
@@ -28,10 +27,6 @@ class ComposerStaticInitad5b003737c3e55cebd9eaeff51e9855
         'think\\captcha\\' => 
         array (
             0 => __DIR__ . '/..' . '/topthink/think-captcha/src',
-        ),
-        'think\\auth\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/5ini99/think-auth/src',
         ),
         'think\\' => 
         array (
