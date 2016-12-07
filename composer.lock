@@ -8,43 +8,6 @@
     "content-hash": "632be999d2d0d245b6af74733ce537b1",
     "packages": [
         {
-            "name": "5ini99/think-auth",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/5ini99/think-auth.git",
-                "reference": "f9f20d18b5e400d67312a7ca75e4dc35be630a4c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://packagist.phpcomposer.com/files/5ini99/think-auth/f9f20d18b5e400d67312a7ca75e4dc35be630a4c.zip",
-                "reference": "f9f20d18b5e400d67312a7ca75e4dc35be630a4c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "think\\auth\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "xiaobo.sun",
-                    "email": "xiaobo.sun@qq.com"
-                }
-            ],
-            "description": "auth package for thinkphp5",
-            "homepage": "https://github.com/5ini99/think-auth",
-            "time": "2016-11-02 06:26:09"
-        },
-        {
             "name": "topthink/framework",
             "version": "v5.0.3",
             "source": {
